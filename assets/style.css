@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    background-color: #1D1D1D;
+    font-family: 'Sono', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+*, 
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+
+.container {
+    position: absolute;
+    width: 100%;
+    max-width: 2000px;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+
+    background: #1C1717;
+
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 200px;
+    align-items: center; 
+}
+
+.title {
+    color: #326741;
+    position: absolute;
+    width: 166px;
+    height: 30px;
+    left: 170px;
+    top: 32px;
+
+    font-family: 'Sono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+    font-size: 20px;
+}
+
+.nav__link {
+    text-decoration: none;
+    margin-left: 100px;
+    font-weight: 500;
+    color: white;
+    line-height: 24px;
+    opacity: .75;
+    transition: opacity .1s linear;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+.bg {
+    margin: -14px 214px;
+}
+
+
+.form {
+    width: 451px;
+    height: 297px;
+    margin:  401px 758px;
+    background: #242424;
+    position: absolute;
+}
+
+.form__text {
+    color: #326741;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 22px;
+    margin: 19px 31px;
+    display: flex;
+}
+
+.form__subtitle {
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+    margin: 31px 32px;
+}
+
+/* .buttonoff {
+    margin: -23px 29px;
+    cursor: pointer;
+} */
+
+a.buttonoff {
+    background: url(../assets/img/buttonoff.png);
+    display: block;
+    margin: -13px 29px;
+    width: 345px;
+    height: 98px;
+}
+
+a.buttonoff:hover {
+    background: url(../assets/img/buttonon.png);
+    width: 320px;
+    height: 65px;
+    margin: 41px 61px;
+}
